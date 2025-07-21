@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  .display-flex{
+    display: flex;
+  }
+
+
+
+/*  shared styles */
+
+main> section{
+  margin-top: 130px;
+}
+
+/*  header styles */
+
+/*  navbar  related styles */
+
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+/* dark02 */
+.text-gray{
+  color:#424242 ;
+}
+
+/* dark03 */
+.text-light-gray{
+  color: #727272;
+}
+
+/* bg-light */
+
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+
+}
+
+ .nav-link{
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 18px;
+  color: #424242;
+  
+ }
+
+ .navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+
+.img{
+  height: 600px;
+  width: 5000px;
+  background-color: antiquewhite;
+}
+
+
+
+/* banner related syle */
+
+
+.banner-content{
+    max-width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: #ffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    padding: 21px 25px;
+    border-radius: 8px;
+    margin-bottom;
+}
+
+main{
+    max-width: ;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+.navbar, .nav-link{
+
+    flex-direction: column;
+}
+}
+
+.feature{
+    justify-content: space-between;
+    align-items: center;
+     margin: 80px 300px;
+   
+}
+
+.team-img-container{
+    height: 342px;
+    
+}
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+  max-width: 392px;
+  height: 392px;
+}
+.our-features{
+  margin-left: 130px;
+  max-width: 530px;
+  height: 292px;
+  margin-top: 180px;
+
+}
+#quick-list{
+  color: #727272;
+  font-size: 45px;
+}
+
+#future{
+  color: #FF900E;
+  font-size: 45px;
+}
+
+.feature-title{
+   font-size: 2.9rem;
+   font-weight: bold;
+}
+
+.feature-description{
+  font-size: 16px;
+  line-height: 26px;
+}
